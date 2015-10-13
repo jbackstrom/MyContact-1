@@ -13,6 +13,9 @@
 		0DCCFCD61BCC70D500D5631A /* MyContact_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCFCD41BCC70D500D5631A /* MyContact_1.xcdatamodeld */; };
 		0DCCFCD81BCC70D500D5631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DCCFCD71BCC70D500D5631A /* Assets.xcassets */; };
 		0DCCFCDB1BCC70D500D5631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DCCFCD91BCC70D500D5631A /* LaunchScreen.storyboard */; };
+		0DCCFCE41BCC721000D5631A /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCFCE21BCC721000D5631A /* Contact+CoreDataProperties.swift */; settings = {ASSET_TAGS = (); }; };
+		0DCCFCE51BCC721000D5631A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCFCE31BCC721000D5631A /* Contact.swift */; settings = {ASSET_TAGS = (); }; };
+		0DCCFD0C1BCC7DBC00D5631A /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCCFD0B1BCC7DBC00D5631A /* ContactTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0DCCFCD71BCC70D500D5631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DCCFCDA1BCC70D500D5631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DCCFCDC1BCC70D500D5631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCCFCE21BCC721000D5631A /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0DCCFCE31BCC721000D5631A /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0DCCFD0B1BCC7DBC00D5631A /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,9 @@
 		0DCCFCC11BCC70D500D5631A = {
 			isa = PBXGroup;
 			children = (
+				0DCCFD0B1BCC7DBC00D5631A /* ContactTableViewController.swift */,
+				0DCCFCE21BCC721000D5631A /* Contact+CoreDataProperties.swift */,
+				0DCCFCE31BCC721000D5631A /* Contact.swift */,
 				0DCCFCCC1BCC70D500D5631A /* MyContact 1 */,
 				0DCCFCCB1BCC70D500D5631A /* Products */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DCCFCE41BCC721000D5631A /* Contact+CoreDataProperties.swift in Sources */,
 				0DCCFCD61BCC70D500D5631A /* MyContact_1.xcdatamodeld in Sources */,
+				0DCCFD0C1BCC7DBC00D5631A /* ContactTableViewController.swift in Sources */,
+				0DCCFCE51BCC721000D5631A /* Contact.swift in Sources */,
 				0DCCFCD01BCC70D500D5631A /* ViewController.swift in Sources */,
 				0DCCFCCE1BCC70D500D5631A /* AppDelegate.swift in Sources */,
 			);
